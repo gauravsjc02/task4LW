@@ -1,3 +1,3 @@
 FROM httpd
-COPY -RT /knitwebpages /usr/local/apache2/htdocs/
+COPY -RT KNIT webpages /usr/local/apache2/htdocs/
 EXPOSE 80
