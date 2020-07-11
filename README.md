@@ -27,6 +27,7 @@ B) If Application created first time, then Expose the application. Else don’t 
 Create an Image from the Dockerfile having Kubectl configuration file in it, which can be used as a template for creating dynamic slave node.
 <br>
 KUBECTL Configuration:<br>
+ [!1](https://raw.githubusercontent.com/yashbajpai98/task4LW/master/task4-images/1.PNG)
 
 Dockerfile for Slave Node:<br> 
 Now, build the image <b>docker build -t kubeimage .</b>
