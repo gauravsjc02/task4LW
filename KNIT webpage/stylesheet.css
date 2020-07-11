@@ -1,0 +1,179 @@
+body
+{
+font-size:16px;
+background-color: rgb(59,89,152);
+}
+
+#header
+{background-color:#022140;
+}
+#footer
+{background-color:#022140;
+color:white;
+font-family:Gill Sans MT
+}
+
+
+h1{
+color:white;
+text-shadow:3px 3px blue;
+text-align:center;
+font-family:Candara;
+font-size:330%;
+}
+
+h3{
+
+color:white;
+text-shadow:3px 3px blue;
+text-align:center;
+font-family:Candara;
+text-decoration:underline;
+font-size:140%;
+}
+
+h4{
+
+color:white;
+text-shadow:3px 3px blue;
+text-align:left;
+font-family:Gill Sans MT;
+text-decoration:underline;
+font-size:140%;
+}
+
+h5{
+color:white;
+text-shadow:3px 3px blue;
+text-align:center;
+font-family:Candara;
+font-size:300%;
+}
+
+
+
+h2
+{
+font-size:140%;
+color:#022140;
+text-align:center;
+text-decoration:underline;
+font-family:Century Gothic;
+}
+p.class1
+{
+font-family:Times New Roman;
+font-size:110%;
+color: dark blue;
+
+}
+
+p.class2
+{
+font-size:17px;
+font-family:Times New Roman;
+}
+
+p.class3
+{
+font-size:17px;
+font-family:Times New Roman;
+}
+ .main p.class2::first-letter
+{
+font-size:2em;
+}
+
+#nav
+{
+background-color:#022140;
+font-size:13px;
+padding:10px;
+margin-top:1px;
+margin-bottom:1px;
+border-radius:6px;
+
+}
+
+#nav button
+{
+
+background-color: #022140;
+color: white;
+}
+#nav ul
+{
+list-style-type:none;
+padding:0;
+margin:0;
+
+}
+#nav li
+{
+display:inline;
+padding:15px;
+vertical-align:middle;}
+#nav a
+{
+text-decoration:none;
+color:white;
+padding:8px 8px 8px 8px ;
+}
+
+
+.main
+{
+background-color: rgb(193,192,239);
+border-width:1px;
+border-color: black;s
+border-style:solid;
+padding:10px;
+border-radius:6px;
+margin-right:350px;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+.image {
+float:left;
+}
+.image2{
+float:right;
+}
+.main image1 {
+float:left;
+}
+.main image4
+{
+float:left;
+}
+.main ul{
+float:left;
+}
+. main class1{
+font-size:13px;
+}
+ul li a:hover
+{
+background-color:rgb(162,159,156);
+color: black;
+}
+
+.side
+{
+background-color: rgb(186,218,248);
+border-width:1px;
+border-color: black;
+border-style:solid;
+padding:10px;
+border-radius:10px;
+width:327px;
+float:right;
+margin-bottom:4px;
+font-size:96%;
+clear: right;
+}
+.side #panels
+{
+font-size:12px;
+}
