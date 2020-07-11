@@ -29,4 +29,4 @@ Create an Image from the Dockerfile having Kubectl configuration file in it, whi
 KUBECTL Configuration:
 
 Dockerfile for Slave Node: 
-Now, build the image <span docker build -t kubeimage ./>
+Now, build the image <b>docker build -t kubeimage .</b>
