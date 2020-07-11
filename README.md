@@ -33,3 +33,8 @@ Now, build the image <b>docker build -t kubeimage .</b>
 
 <h3>Configuring Dynamic Slave Node :</h3>
 First allow Jenkins to communicate with Docker server, for accomplish this, we need to edit /usr/lib/systemd/system/docker.service. Add the following to the ExecStart field: <strong>-H tcp://0.0.0.0:4243</strong>
+<br>
+Now, restart docker services
+<b> systemctl deamon-reload</b>
+<br>
+<b> systemctl restart docker.service</b>
