@@ -26,7 +26,10 @@ B) If Application created first time, then Expose the application. Else don’t 
 <h3>Solution :</h3>
 Create an Image from the Dockerfile having Kubectl configuration file in it, which can be used as a template for creating dynamic slave node.
 <br>
-KUBECTL Configuration:
+KUBECTL Configuration:<br>
 
-Dockerfile for Slave Node: 
+Dockerfile for Slave Node:<br> 
 Now, build the image <b>docker build -t kubeimage .</b>
+
+<h3>Configuring Dynamic Slave Node :</h3>
+First allow Jenkins to communicate with Docker server, for accomplish this, we need to edit /usr/lib/systemd/system/docker.service. Add the following to the ExecStart field: <strong>-H tcp://0.0.0.0:4243</strong>
