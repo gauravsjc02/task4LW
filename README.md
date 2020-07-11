@@ -1,5 +1,4 @@
-# task4LW
-<h1>Create a WebServer Setup on Kubernetes using the Dynamic Slave Node of Jenkins.</h1>
+<h1>Deploying WebServer Setup on Kubernetes using the Dynamic Slave Node of Jenkins.</h1>
 
 <h3>Steps :</h3>
 <ol>
@@ -61,4 +60,5 @@ You can use any free port in place of 4243. Now after this we have to add the dy
 Here we have selected the option Restrict where this project can be run and provided the label we have used for the dynamic node: docker, So that this job will be executed on the dynamic node.
 
 <h3>Pipeline View: </h3>
-![pipelinenew](https://raw.githubusercontent.com/yashbajpai98/task4LW/master/task4-images/pipeline4.PNG)
+
+ ![pipe](https://raw.githubusercontent.com/yashbajpai98/task4LW/master/task4-images/pipeline4.PNG)
