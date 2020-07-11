@@ -27,12 +27,16 @@ B) If Application created first time, then Expose the application. Else don’t 
 Create an Image from the Dockerfile having Kubectl configuration file in it, which can be used as a template for creating dynamic slave node.
 <br>
 KUBECTL Configuration:<br>
- [!1](https://raw.githubusercontent.com/yashbajpai98/task4LW/master/task4-images/1.PNG)
+ ![1](https://raw.githubusercontent.com/yashbajpai98/task4LW/master/task4-images/1.PNG)
 
 Dockerfile for Slave Node:<br> 
+![2](https://raw.githubusercontent.com/yashbajpai98/task4LW/master/task4-images/2.PNG)
+
 Now, build the image <b>docker build -t kubeimage .</b>
 
 <h3>Configuring Dynamic Slave Node :</h3>
+![3](https://raw.githubusercontent.com/yashbajpai98/task4LW/master/task4-images/3.PNG)
+
 First allow Jenkins to communicate with Docker server, for accomplish this, we need to edit /usr/lib/systemd/system/docker.service. Add the following to the ExecStart field: <strong>-H tcp://0.0.0.0:4243</strong>
 <br>
 Now, restart docker services<br>
@@ -42,3 +46,4 @@ Now, restart docker services<br>
 <br>
 You can use any free port in place of 4243. Now after this we have to add the dynamic node to the Jenkins for this : <b>Go to Manage Jenkins > Manage Nodes and Clouds > Configure Clouds > Add A New Cloud > Select Docker</b>
 <br>
+![4](https://raw.githubusercontent.com/yashbajpai98/task4LW/master/task4-images/4.PNG)
